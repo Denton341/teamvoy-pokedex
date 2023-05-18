@@ -4,7 +4,7 @@ import App from './main';
 import PokemonInfo from './main/pokemon-info';
 import reportWebVitals from './reportWebVitals';
 import {
-  BrowserRouter,
+  HashRouter,
 } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(
@@ -12,9 +12,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 

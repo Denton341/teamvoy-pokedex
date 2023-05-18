@@ -1,5 +1,6 @@
 {
   "name": "teamvoy-pokedex",
+  "homepage": "https://denton341.github.io/teamvoy-pokedex/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,6 +25,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -49,6 +52,7 @@
     "@types/react-router": "^5.1.20",
     "@types/react-router-dom": "^5.3.3",
     "@types/react-select": "^5.0.1",
-    "@types/styled-components": "^5.1.26"
+    "@types/styled-components": "^5.1.26",
+    "gh-pages": "^5.0.0"
   }
 }
