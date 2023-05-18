@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/teamvoy-pokedex/static/js/main.de1e1c32.js",
+    "static/js/787.c7fa7c55.chunk.js": "/teamvoy-pokedex/static/js/787.c7fa7c55.chunk.js",
+    "index.html": "/teamvoy-pokedex/index.html",
+    "main.de1e1c32.js.map": "/teamvoy-pokedex/static/js/main.de1e1c32.js.map",
+    "787.c7fa7c55.chunk.js.map": "/teamvoy-pokedex/static/js/787.c7fa7c55.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.de1e1c32.js"
+  ]
+}
